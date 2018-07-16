@@ -15,6 +15,3 @@ public class Private {
 		this.company = company;
 	}
 }
-
-
-

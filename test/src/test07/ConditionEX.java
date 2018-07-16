@@ -5,26 +5,24 @@ import java.util.Scanner;
 public class ConditionEX {
 
 	public static void main(String[] args) {
-		//A의 국어점수,  B의 국어점수 C의 국어점수 입력하고 그에 평균을 구해라
+		// ABC의 국어점수를 구하고 그에 따른 우선순위를 정하라
 		Scanner scan = new Scanner(System.in);
 		System.out.print("A의 국어 점수 : ");
-		String ANum = scan.nextLine();
+		int a = scan.nextInt();
 		System.out.print("B의 국어 점수 : ");
-		String BNum = scan.nextLine();
+		int b = scan.nextInt();
 		System.out.print("C의 국어 점수 : ");
-		String CNum = scan.nextLine();
-		
-		int A = Integer.parseInt(ANum);
-		int B = Integer.parseInt(BNum);
-		int C = Integer.parseInt(CNum);
-		
-		System.out.println((A+B+C)/3); 
-		
-		
-		
-		
-
-
+		int c = scan.nextInt();
+		//int A = Integer.parseInt(ANum);
+		//int B = Integer.parseInt(BNum);
+		//int C = Integer.parseInt(CNum);
+		int[] arr = new int[3];
+		arr[0] = a;	
+		arr[1] = b;
+		arr[2] = c;
+		for(i=0; i<=2; i++) {
+			
+		}
 	}
 
 }

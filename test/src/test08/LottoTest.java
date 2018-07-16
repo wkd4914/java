@@ -10,5 +10,4 @@ public class LottoTest {
 			System.out.println(arr[i]);		
 		}	
 	}
-
 }
