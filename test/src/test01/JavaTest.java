@@ -15,8 +15,7 @@ public class JavaTest {
 		A[1] = tmpArr[1];
 		A[2] = tmpArr[2];
 		for(int i=0; i<A.length;i++) {
-			
+			System.out.println(i);
 		}
 	}
-
 }

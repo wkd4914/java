@@ -7,16 +7,20 @@ public class Car {
 	private int speed;
 	private String name;
 	private String company;
-	
-	public void speed(int speed) {
-	    this.speed = speed;
-	}
-	public void name(String name) {
-		this.name = name;
-	}
-	public void company(String company) {
+// 	
+//  접근 제어자 (static)데이터타입(리턴값이 있을시)  메소드의 이름(){
+//	           (리턴값이 없을때 void)
+
+	public void make(String company) {
 		this.company = company;
 	}
+	
+	public String give() {
+		return company;
+	}
+	
+	
+	
 	public static void main(String [] args) {
 		
 	}

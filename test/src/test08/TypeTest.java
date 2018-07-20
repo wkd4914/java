@@ -6,6 +6,7 @@ public class TypeTest {
 		int num= 2;
 		double db =1.2;
 		num =(int)db;
+		System.out.println(num);
 		
 	}
 

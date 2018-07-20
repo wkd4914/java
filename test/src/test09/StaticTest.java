@@ -26,6 +26,4 @@ public class StaticTest {
 		t.chNum();
 		System.out.println(StaticTest.numSt);
 	}
-
-	
 }
