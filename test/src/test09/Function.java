@@ -5,8 +5,9 @@ public class Function {
 		static void print(String str) {
 		System.out.println(str);
 	    }
-		static void sum(int num1, int num2) {
-			System.out.println(num1+num2);
+		static Function(int 2, int 3) {
+			
+			return(2+num2);
 		}
 		static int getNum() {
 			return 0;
